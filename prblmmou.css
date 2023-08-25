@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header section start */
+.headerArea{
+    background: black;
+    padding: 7px 0;
+}
+.menuLogo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 137px;
+}
+.menu ul li{
+    display: inline-block;
+    border-bottom: 1px solid white;
+    margin-left: 11px;
+}
+.menu ul li a{
+    display: inline-block;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 7px 17px;
+    line-height: 27px;
+}
+/* flex section start */
+.flexSection{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-left{
+    width: 75%;
+}
+.F-1{
+    display: flex;
+}
+.card{
+    width: 300px;
+    height: 270px;
+    border: 1px solid green;
+    margin: 17px;
+}
+.text{
+    color: white;
+    padding: 17px;
+    background: hotpink;
+    display: inline-block;
+}
+.Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.End{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+/* second flex section start */
+.F-2{
+    display: flex;
+}
+.grow{
+    border: 1px solid green;
+    margin: 17px;
+    padding: 17px;
+    display: flex;
+    flex-grow: 0;
+    flex: 1;
+}
+.grow-t{
+    display: flex;
+    flex-grow: 2;
+}
+/* ................ */
+.F-3{
+    display: flex;
+}
+.flex-m{
+    width: 300px;
+    height: 90px;
+    border: 1px solid green;
+    margin: 17px;
+    padding: 17px;
+}
+.flex-m p{
+    border: 1px solid yellow;
+    background-color: aqua;
+    padding: 7px;
+    display: flex;
+}
+
+.flx-item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flx-item2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* prblem solve */
+.flx-item-3{
+  display:flex;
+ justify-content: space-between;
+ align-items: center;
+  
+}
+
+.flx-item-ac{
+
+   display:flex;
+  align-self:flex-start !important;
+    
+}
+.flx-item-c{
+
+ display:flex;
+ align-self:center !important;
+   
+}
+.flx-item-e{
+    display:flex;
+  align-self: flex-end !important;
+  flex-basis: 20px;
+  margin-top:60px;
+}
+/* right section */
+.flex-right{
+    width: 25%;
+    padding: 0px 17px;
+    border-left: 3px solid red;
+    margin-left: 11px;
+    background-color: rgba(104, 72, 72, 0.397);
+}
+.flex-right h3{
+    padding: 13px 0;
+}
+.flex-right p{
+    padding: 13px 0;
+    font-size: small;
+    padding: 17px 0;
+}
+/* foooter section start */
+.footerSection{
+    background-color: black;
+    padding: 27px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+.footerSection a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid ;
+    padding: 7px 17px;
+    margin-left: 11px;
+    display: inline-block;
+}
