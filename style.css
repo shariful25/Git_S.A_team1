@@ -72,7 +72,7 @@ font-family: 'Caveat', cursive;
     display: inline-block;
     padding: 10px 20px;
     color: #fff;
-    transition: .4s;
+    transition: .7s;
     font-weight: 700;
 }
 
@@ -100,7 +100,7 @@ font-family: 'Caveat', cursive;
     padding: 30px 25px;
     opacity: 0;
     visibility: hidden;
-    transition: .6s;
+    transition: .7s;
     transform: translateY(20px);
 }
 
@@ -210,7 +210,7 @@ font-family: 'Caveat', cursive;
     position: absolute;
     right: 38px;
     top: 45px;
-    transition: .4s;
+    transition: .6s;
 }
 /* .header  .input-box { 
     
